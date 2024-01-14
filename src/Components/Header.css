@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,65 +6,129 @@
 }
 
 header {
-  font-family: "Roboto Mono", monospace;
   background: #f9f8f8;
   position: absolute;
-  top: 10%;
+  top: 8%;
   width: 100%;
   transform: translateY(-50%);
 }
 h1 {
   font-size: 8rem;
-  color: #222222;
+  color: #ffffff;
+  font-family: 'Rubik Doodle Shadow', system-ui;
   text-align: center;
   margin-top: 0;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 50;
 }
 
 .glitch-window {
   position: absolute;
   top: 0;
+  z-index:4;
   left: -2px;
   width: 100%;
-  color: #222222;
   text-shadow: 2px 0 #f9f8f8, -1px 0 yellow, -2px 0 green;
-  overflow: hidden;
-  animation: crt-me 2500ms infinite linear alternate-reverse;
+  overflow: hidden;;
 }
 
-@keyframes crt-me {
-  0% {
-    clip: rect(31px, 9999px, 94px, 0);
-  }
-  10% {
-    clip: rect(112px, 9999px, 76px, 0);
-  }
-  20% {
-    clip: rect(85px, 9999px, 77px, 0);
-  }
-  30% {
-    clip: rect(27px, 9999px, 97px, 0);
-  }
-  40% {
-    clip: rect(64px, 9999px, 98px, 0);
-  }
-  50% {
-    clip: rect(61px, 9999px, 85px, 0);
-  }
-  60% {
-    clip: rect(99px, 9999px, 114px, 0);
-  }
-  70% {
-    clip: rect(34px, 9999px, 115px, 0);
-  }
-  80% {
-    clip: rect(98px, 9999px, 129px, 0);
-  }
-  90% {
-    clip: rect(43px, 9999px, 96px, 0);
-  }
-  100% {
-    clip: rect(82px, 9999px, 64px, 0);
-  }
+
+
+
+@keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+@-webkit-keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+@-moz-keyframes move-background {    
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+    @-webkit-keyframes move-background {
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+.background-container{
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+}
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+  	z-index: 0;
+}
+
+.twinkling{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+	
+}
+
+.clouds{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 35s linear infinite;
+  -ms-animation:move-background 35s linear infinite;
+  -o-animation:move-background 35s linear infinite;
+  -webkit-animation:move-background 35s linear infinite;
+  animation:move-background 35s linear infinite;
+}
+img{
+  height: 15vh;
+  width:15vh;
+  position: absolute;
+  z-index: 3;
+  right: 40px;
 }
