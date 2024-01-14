@@ -3,7 +3,6 @@ import './Header.css'
 
 export default function Header() {
   useEffect(() => {
-    // componentDidMount benzeri işlemleri useEffect içinde gerçekleştirelim
     const glitchWindow = document.createElement("div");
     glitchWindow.classList.add("glitch-window");
 
@@ -11,8 +10,7 @@ export default function Header() {
     glitchWindow.appendChild(clonedGlitched);
 
     document.querySelector("header.header").appendChild(glitchWindow);
-
-    // componentWillUnmount benzeri işlemleri useEffect içinde gerçekleştirelim
+    
     return () => {
       document.querySelector("header.header").removeChild(glitchWindow);
     };
