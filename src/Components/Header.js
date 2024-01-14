@@ -14,7 +14,7 @@ export default function Header() {
     return () => {
       document.querySelector("header.header").removeChild(glitchWindow);
     };
-  }, []); // Bu boş dizi, sadece bir kere çalışmasını sağlar
+  }, []); 
 
   return (
     <header className="header">
