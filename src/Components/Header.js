@@ -14,7 +14,7 @@ export default function Header() {
     return () => {
       document.querySelector("header.header").removeChild(glitchWindow);
     };
-  }, []); 
+  }, []); //deleted
 
   return (
     <header className="header">
