@@ -1,13 +1,7 @@
-import Header from './Components/Header';
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      
-       
-      <Header />
-    </div>
-  );
+  return <Navbar title="Evenstar" />;
 }
 
 export default App;
