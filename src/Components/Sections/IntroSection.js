@@ -3,7 +3,7 @@ import './IntroSection.css'
 
 export const IntroSection = () => {
     const { word, stop, start, color } = useTypingText(
-        ["", "Evenstar Ekibi"],
+        [" ", "Evenstar Ekibi"],
         130,
         20,
     );
