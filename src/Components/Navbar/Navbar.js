@@ -91,7 +91,9 @@ export default function Navbar({ title }) {
 
       <div class="section1">
         <p>
+          <br/>
          <p>Merhaba Bilgi Sevdalıları! </p> 
+         <br/>
           Evenstar dünyasına hoş geldiniz! Burası,
           merakınızı tetikleyecek, sizi bilgiyle buluşturacak ve farklı
           konularda keşifler yapmanıza olanak tanıyacak bir platform. Uzayın
