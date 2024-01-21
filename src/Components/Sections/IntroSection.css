@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.d-table {
+  display: table;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-lg-center {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .text-lg-center {
+    text-align: center;
+  }
+}
+
+.container {
+  max-width: 1150px;
+  margin-top: 10px;
+}
+
+.h1 {
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .div1 {
+    padding: 10% 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h1 {
+    font-size: 39px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .h1 {
+    font-size: 24px;
+  }
+}
