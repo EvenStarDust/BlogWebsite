@@ -105,6 +105,8 @@ footer {
 
 .nav-opacity {
   background-color: rgba(167, 161, 161, 0.9);
+  border-radius: 1080px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 900px) {
@@ -121,7 +123,7 @@ footer {
       right: 0px;
       height: 100vh;
       top: 0;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
       flex-direction: column;
       align-items: center;
       width: 60%;
@@ -136,6 +138,7 @@ footer {
     .burger {
       display: block;
       cursor: pointer;
+      background-color:hsl(11deg 100% 31.04%);
     }
   } /*  Media Query 768 End  */
 
@@ -156,13 +159,16 @@ footer {
 
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 8px);
+    background-color:hsl(11deg 100% 31.04%);
   }
 
   .toggle .line2 {
     opacity: 0;
+    background-color:hsl(11deg 100% 31.04%);
   }
 
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -8px);
+    background-color:hsl(11deg 100% 31.04%);
   }
 }

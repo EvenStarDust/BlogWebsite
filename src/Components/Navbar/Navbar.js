@@ -91,90 +91,23 @@ export default function Navbar({ title }) {
 
       <div class="section1">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis
-          expedita voluptatem sint, accusamus maxime assumenda debitis
-          voluptates libero ea quasi necessitatibus ipsa sunt qui et corporis
-          iusto? Asperiores neque dolorem laudantium non rem assumenda, magni
-          odio accusantium quia, aliquam totam perferendis quos nam quae,
-          provident autem molestias. Tempora impedit fuga sint magnam
-          aspernatur, quam, reiciendis dolorem temporibus ex sed, cumque minus
-          maiores porro. Ipsa iure odit omnis nesciunt, doloremque libero dolor
-          quo distinctio voluptatibus? Qui totam optio ad cupiditate dolorem
-          quisquam ipsa tempora aspernatur nesciunt quasi. Quas quo praesentium
-          saepe autem consectetur libero accusantium, culpa ea, molestiae quae
-          soluta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis
-          expedita voluptatem sint, accusamus maxime assumenda debitis
-          voluptates libero ea quasi necessitatibus ipsa sunt qui et corporis
-          iusto? Asperiores neque dolorem laudantium non rem assumenda, magni
-          odio accusantium quia, aliquam totam perferendis quos nam quae,
-          provident autem molestias. Tempora impedit fuga sint magnam
-          aspernatur, quam, reiciendis dolorem temporibus ex sed, cumque minus
-          maiores porro. Ipsa iure odit omnis nesciunt, doloremque libero dolor
-          quo distinctio voluptatibus? Qui totam optio ad cupiditate dolorem
-          quisquam ipsa tempora aspernatur nesciunt quasi. Quas quo praesentium
-          saepe autem consectetur libero accusantium, culpa ea, molestiae quae
-          soluta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis
-          expedita voluptatem sint, accusamus maxime assumenda debitis
-          voluptates libero ea quasi necessitatibus ipsa sunt qui et corporis
-          iusto? Asperiores neque dolorem laudantium non rem assumenda, magni
-          odio accusantium quia, aliquam totam perferendis quos nam quae,
-          provident autem molestias. Tempora impedit fuga sint magnam
-          aspernatur, quam, reiciendis dolorem temporibus ex sed, cumque minus
-          maiores porro. Ipsa iure odit omnis nesciunt, doloremque libero dolor
-          quo distinctio voluptatibus? Qui totam optio ad cupiditate dolorem
-          quisquam ipsa tempora aspernatur nesciunt quasi. Quas quo praesentium
-          saepe autem consectetur libero accusantium, culpa ea, molestiae quae
-          soluta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nobis
-          expedita voluptatem sint, accusamus maxime assumenda debitis
-          voluptates libero ea quasi necessitatibus ipsa sunt qui et corporis
-          iusto? Asperiores neque dolorem laudantium non rem assumenda, magni
-          odio accusantium quia, aliquam totam perferendis quos nam quae,
-          provident autem molestias. Tempora impedit fuga sint magnam
-          aspernatur, quam, reiciendis dolorem temporibus ex sed, cumque minus
-          maiores porro. Ipsa iure odit omnis nesciunt, doloremque libero dolor
-          quo distinctio voluptatibus? Qui totam optio ad cupiditate dolorem
-          quisquam ipsa tempora aspernatur nesciunt quasi. Quas quo praesentium
-          saepe autem consectetur libero accusantium, culpa ea, molestiae quae
-          soluta!
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
-          vel, commodi magni, omnis numquam ea incidunt maiores autem voluptas
-          neque sed reprehenderit saepe quo corrupti quis excepturi veritatis
-          ipsa ab, aliquam suscipit placeat facere alias! Porro eius culpa
-          labore numquam. Rem, officia. Quae nihil perferendis rem asperiores
-          corrupti quam veniam, dolor repellendus, molestiae beatae esse sed
-          placeat delectus animi dolore eaque facilis, maiores pariatur a
-          consequatur possimus saepe qui quos! Expedita doloremque sequi
-          eligendi assumenda praesentium pariatur vel voluptates laudantium.
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
-          delectus, illum exercitationem voluptatum reiciendis quasi ratione
-          asperiores quo iusto, dolor iste accusantium explicabo voluptates
-          modi, eligendi labore error pariatur quod?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          voluptas ratione delectus sit? Nihil consequatur corrupti fugiat
-          dolores recusandae tenetur consectetur explicabo delectus velit
-          laboriosam voluptas voluptatum odit saepe molestiae dolore,
-          perspiciatis voluptatibus illum enim alias unde facere quas blanditiis
-          numquam. Pariatur asperiores est numquam, totam perspiciatis
-          dignissimos repudiandae fugiat aperiam obcaecati explicabo, nulla quas
-          iusto provident culpa unde dolores ullam mollitia eaque saepe id
-          consequuntur sit. Facilis quibusdam dicta doloribus obcaecati repellat
-          sequi, repellendus veritatis rem ex consequuntur, tempora blanditiis
-          corrupti rerum cumque iusto? Est autem perferendis quos molestias
+         <p>Merhaba Bilgi Sevdalıları! </p> 
+          Evenstar dünyasına hoş geldiniz! Burası,
+          merakınızı tetikleyecek, sizi bilgiyle buluşturacak ve farklı
+          konularda keşifler yapmanıza olanak tanıyacak bir platform. Uzayın
+          derinliklerinden bilgisayar dünyasına, sıra dışı hayvan türlerinden
+          güncel sosyal medya trendlerine kadar pek çok konuda bilgiye açılan
+          kapı burada. Evenstar, herkesin ilgisini çekecek geniş bir içerik
+          yelpazesi sunuyor. Sitemizde kaybolurken, farklı konular hakkında
+          bilgi edinirken, ilginç ve eğlenceli detayları keşfederken zamanın
+          nasıl geçtiğini anlamayacaksınız. Yenilikçi yazılar, ilham verici
+          içerikler ve sizi düşündürecek makalelerle dolu olan sitemizde her gün
+          yeni bir şey öğrenme fırsatı sizi bekliyor. Bu platformda her şeyi
+          bulabilir, öğrenebilir ve paylaşabilirsiniz. Siz de Evenstar'a
+          katılarak, bilgi dolu bir dünyanın kapılarını aralayın. Unutmayın,
+          keşfetmek için asla geç değildir! Bilgi dolu günler dileriz! 
+          <p>Evenstar
+          Ekibi</p>
         </p>
       </div>
     </>
