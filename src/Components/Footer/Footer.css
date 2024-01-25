@@ -1,0 +1,288 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  ul li {
+    list-style: none;
+    color: #fff;
+  }
+  .footer__title{
+    font-style: italic;
+  }
+  .footer__title_main{
+    font-style: italic;
+    color:hsl(11deg 100% 31.04%);
+  }
+  
+  .footer {
+    z-index: 1;
+    --footer-background: rgba(167, 161, 161, 0.9);
+    display: grid;
+    position: relative;
+    grid-area: footer;
+    min-height: 12rem;
+  }
+
+  body .footer .contentfooter {
+    padding:  1rem 2rem;
+    background: var(--footer-background);
+    z-index: 2;
+  
+  }
+  
+  
+  .footer {
+   
+    height: 200px; 
+  }
+  
+   .footer__copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .footer .contentfooter .container {
+    max-width: 768px;
+    margin: 0 auto; 
+    display: grid;
+    align-items: center; 
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .footer .contentfooter .container2 {
+    max-width: 768px;
+    margin: 0 auto; 
+    display: grid;
+    align-items: center; 
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+    .contentfooter {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      gap: 20px;
+      
+  }
+  
+  
+  .contentfooter h2 {
+    margin-bottom: .25rem;
+    font-size: 2.25rem;
+  }
+  
+  .contentfooter span {
+    font-size: .975rem;
+  }
+  
+  
+  .footer__socials {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    
+  }
+  
+  .footer__social {
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+    
+    
+  }
+  .footer__social:hover {
+    opacity: 0.8;
+    color: hsl(11deg 100% 31.04%);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(203, 11, 11, 0.7);
+    border-radius: 4px;
+    background-color: #f8f8f800;
+    color: white;
+    resize: none;
+  }
+  textarea::placeholder{
+    color: white;
+  }
+  
+  
+  
+  @media screen and (max-width: 767px){
+    .footer .contentfooter {
+      padding: 0 1.5rem;
+    }
+    .footer .contentfooter .container {
+      grid-template-columns: repeat(1, 5fr);
+    }
+   
+    .contentfooter h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contentfooter span {
+      font-size: .813rem;
+    }
+  
+    .footer__links  {
+      flex-direction: column;
+      row-gap: 1.5rem;
+    }
+    
+    .footer__socials {
+      justify-self: flex-start;
+    }
+  }
+  
+  @media screen and (max-width: 567px){
+    .footer .contentfooter {
+      display: flex;
+      
+      overflow:hidden ;
+      flex-direction: column;
+      grid-template-columns: repeat(2, 1fr);
+     
+    }
+  }
+  
+  /* Import font */
+  
+  @import url('http://fonts.googleapis.com/css?family=Roboto');
+  
+  /* General styles */
+  
+  
+  
+  .my-footerbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db00;
+    border: 2px solid white;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .my-footerbtn düğmesine fare üzerine gelindiğinde stil değişikliği */
+  .my-footerbtn:hover {
+    background-color:  hsl(11deg 100% 31.04%);
+  }
+  
+  /* .my-footerbtn düğmesi aktif olduğunda (tıklanırken) stil değişikliği */
+  .my-footerbtn:active {
+    background-color: hsl(11deg 100% 31.04%);
+  }
+  
+  
+  .inputBox {
+  
+  position:relative;
+  
+  width: 400px;
+  margin: 5px;
+  
+  
+  }
+  
+  .inputBox input {
+  
+  width: 100%;
+  
+  padding: 10px;
+  
+  border: 1px solid rgb(255, 255, 255, 0.7);
+  
+  background:  rgba(167, 161, 161, 0.9);
+  
+  border-radius: 5px;
+  
+  outline: none;
+  
+  color: #fff;
+  
+  font-size: 1em;
+  
+  transition: 0.5s;
+  
+  }
+  
+  .inputBox span {
+  
+  position: absolute;
+  
+  left: 0;
+  
+  padding: 10px;
+  
+  pointer-events: none;
+  
+  font-size: 1.1em;
+  
+  letter-spacing: 0.2em;
+  
+  color: rgba(255, 255, 255, 0.7);
+  
+  text-transform: uppercase;
+  
+  transition: 0.5s;
+  
+  }
+  
+  .inputBox input:valid ~ span,
+  
+  .inputBox input:focus ~ span {
+  
+  color: #ffffff;
+  
+  transform: translateX(10px) translateY(-7px);
+  
+  font-size: 0.65em;
+  
+  padding: 0 5px;
+  
+  background: hsl(11deg 100% 31.04%);
+  
+  border-left: 1px solid #e7e7e7;
+  
+  border-right: 1px solid #ffffff;
+  
+  letter-spacing: 0.2em;
+  
+  }
+  
+  .inputBox:nth-child(2) input:valid ~ span,
+  
+  .inputBox:nth-child(2) input:focus ~ span {
+  
+  background: hsl(11deg 100% 31.04%);
+  
+  color: rgb(250, 250, 250);
+  
+  border-radius: 2px;
+  
+  }
+  
+  .inputBox input:valid,
+  
+  .inputBox input:focus {
+  
+  border: 1px solid #e0e0e0;
+  
+  }
