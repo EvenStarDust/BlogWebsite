@@ -8,7 +8,7 @@ export const IntroSection = () => {
         20,
     );
     return (
-        <section id="about">
+        <section id="about" className="alt">
             <div className="d-table w-100 text-start text-lg-center">
                 <div className="div1">
                     <div className="container">

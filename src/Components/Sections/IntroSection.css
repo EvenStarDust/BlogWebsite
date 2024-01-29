@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 .d-table {
   display: table;
 }
@@ -28,13 +28,59 @@
 }
 
 .h1 {
-  font-size: 20px;
-  line-height: 1.2em;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 25px;
+  line-height: 1.5em;
   letter-spacing: 0.05em;
-  margin: 25px 0;
+  margin: 50px 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-weight: bold;
+}
+
+.alt {
+  --b: 8px;
+  --s: 60px;
+  --g: 20px;
+  --c: #6e6262;
+  padding: calc(var(--b) + var(--g));
+  background-image: conic-gradient(
+      from 90deg at top var(--b) left var(--b),
+      #0000 25%,
+      var(--c) 0
+    ),
+    conic-gradient(
+      from -90deg at bottom var(--b) right var(--b),
+      #0000 25%,
+      var(--c) 0
+    );
+  background-position: var(--_p, 0%) var(--_p, 0%),
+    calc(100% - var(--_p, 0%)) calc(100% - var(--_p, 0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+
+  transition: background-position 0.3s var(--_i, 0.3s),
+    background-size 0.3s calc(0.3s - var(--_i, 0.3s));
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.alt {
+  background-image: conic-gradient(
+      from 180deg at top var(--b) right var(--b),
+      #0000 25%,
+      var(--c) 0
+    ),
+    conic-gradient(
+      from 0deg at bottom var(--b) left var(--b),
+      #0000 25%,
+      var(--c) 0
+    );
+  background-position: calc(100% - var(--_p, 0%)) var(--_p, 0%),
+    var(--_p, 0%) calc(100% - var(--_p, 0%));
+}
+.alt:hover {
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g) / 2);
+  --_i: 0s;
 }
 
 .div1 {
