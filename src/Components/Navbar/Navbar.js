@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { IntroSection } from '../Sections/IntroSection'
+
 
 export default function Navbar({ title }) {
   const [scrolling, setScrolling] = useState(false);
@@ -32,15 +33,16 @@ export default function Navbar({ title }) {
       if (isNavActive) {
         link.style.animation = "";
       } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
-          }s`;
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 7 + 0.3
+        }s`;
       }
     });
   };
 
   return (
     <>
-      <section className={scrolling ? "scrolling__nav " : ''}>
+      <section className={scrolling ? "scrolling__nav " : ""}>
         <nav className={scrolling ? "nav-opacity" : ""}>
           <div className="logo">
             <h4>{title}</h4>
@@ -56,7 +58,7 @@ export default function Navbar({ title }) {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="#">Categories</a>
+              <Link to="/Categories">Categories</Link>
             </li>
             <li>
               <a href="#">Blog</a>
@@ -77,7 +79,6 @@ export default function Navbar({ title }) {
           <h1></h1>
         </div>
       </div>
-      <IntroSection />
     </>
   );
 }

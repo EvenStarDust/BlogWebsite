@@ -23,7 +23,7 @@
   }
   
   .footer {
-    z-index: 1;
+    z-index: 0;
     --footer-background: rgba(167, 161, 161, 0.9);
     display: grid;
     position: relative;

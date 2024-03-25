@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { IntroSection } from "../Sections/IntroSection";
 
 const Home = () => {
   const accordionList = [
@@ -26,21 +27,29 @@ const Home = () => {
   ];
 
   return (
-    <div className="body">
-      <ul className="accordion">
-      {accordionList.map((item, index) => (
-        <li className="accordion__item" key={index}>
-          <img className="accordion__image" src={item.image} alt={item.title} />
-          <div className="accordion__overlay">
-            <h2 className="accordion__title">{item.title}</h2>
-            <p className="accordion__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.
-            </p>
-          </div>
-        </li>
-      ))}
-    </ul>
-    </div>
+    <>
+      <div className="body">
+        <ul className="accordion">
+          {accordionList.map((item, index) => (
+            <li className="accordion__item" key={index}>
+              <img
+                className="accordion__image"
+                src={item.image}
+                alt={item.title}
+              />
+              <div className="accordion__overlay">
+                <h2 className="accordion__title">{item.title}</h2>
+                <p className="accordion__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  hendrerit nisi sed sollicitudin pellentesque.
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <IntroSection />
+    </>
   );
 };
 
