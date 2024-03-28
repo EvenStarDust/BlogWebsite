@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 import { IntroSection } from "../Sections/IntroSection";
 
 const Home = () => {
@@ -28,6 +30,7 @@ const Home = () => {
 
   return (
     <>
+      <Header />
       <div className="body">
         <ul className="accordion">
           {accordionList.map((item, index) => (
@@ -49,6 +52,7 @@ const Home = () => {
         </ul>
       </div>
       <IntroSection />
+      <Footer />
     </>
   );
 };

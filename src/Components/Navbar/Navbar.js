@@ -49,7 +49,7 @@ export default function Navbar({ title }) {
           </div>
           <ul className={`nav-links ${isNavActive ? "nav-activ" : ""}`}>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="#about">About</a>
@@ -58,7 +58,7 @@ export default function Navbar({ title }) {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <Link to="/Categories">Categories</Link>
+              <Link to="/categories">Categories</Link>
             </li>
             <li>
               <a href="#">Blog</a>
@@ -74,11 +74,7 @@ export default function Navbar({ title }) {
           </div>
         </nav>
       </section>
-      <div className="banner">
-        <div className="text">
-          <h1></h1>
-        </div>
-      </div>
+     <></>
     </>
   );
 }

@@ -1,12 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 body {
     background: rgb(251, 251, 251);
 }
 #hexGrid {
   display: flex;
+  padding-top: 180px;
+  padding-bottom: 180px;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
@@ -71,7 +70,7 @@ body {
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color: rgba(0, 128, 128, 0.8);
+  background-color: hsla(11, 100%, 31%, 0.442);
   font-weight: 300;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
