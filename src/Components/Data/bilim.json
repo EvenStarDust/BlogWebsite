@@ -1,23 +1,43 @@
 [
-    {
-      "id": 1,
-      "title": "Evrim Teorisi ve Genetik: İnsanın Kökeni Üzerine Derinlemesine Bir Bakış",
-      "description": "Evrim teorisi, biyoloji ve paleontoloji alanlarında kök salmış bir paradigmadır. Charles Darwin'in evrim teorisi, türlerin zaman içinde nasıl değiştiğini ve ortak bir atadan geldiklerini öne sürer. Farklı türlerin benzerlikleri ve farklılıkları, evrimin temel kanıtlarını oluşturur. Modern genetik araştırmalar, fosil kanıtları ve moleküler biyoloji verileriyle birleştirilerek insan evrimi hakkında derinlemesine bir anlayış sağlar. İnsan genomunun çözülmesi, türler arasındaki ilişkileri ve insanın diğer organizmalarla olan benzerliklerini daha iyi anlamamıza yardımcı olur. Genetik varyasyonlar ve mutasyonlar, doğal seçilimin ve evrimin itici güçlerini açıklar. Bu makale, evrim teorisinin temel prensiplerini, genetik araştırmalarının insanın kökeni üzerindeki etkilerini, fosil kanıtlarını ve moleküler evrimin önemini detaylı bir şekilde ele alır."
-    },
-    {
-      "id": 2,
-      "title": "Kuantum Fiziğinin Sırları: Bell Eşitsizlikleri ve Gizemli Kuantum Bağlantıları",
-      "description": "Kuantum fiziği, doğanın en temel düzeylerindeki olayları açıklamak için kullanılan bir teoridir ve genellikle sıradışı sonuçlar üretir. Bell Eşitsizlikleri, klasik fizikten farklı olarak kuantum mekaniğinin özelliklerini tanımlar. Bu eşitsizlikler, kuantum sistemler arasındaki ilişkilerin klasik fizikle uyumsuz olduğunu gösterir. Kuantum bağlantıları veya kuantum dolanıklığı, birbirinden uzak olan parçacıklar arasında anında bilgi iletişimi sağlayan gizemli bir fenomendir. Kuantum süperpozisyonu ve kuantum belirsizliği, kuantum fiziğinin temel prensiplerini oluşturur. Bu makale, Bell Eşitsizlikleri ve kuantum bağlantılarının temel prensiplerini, yanı sıra bu fenomenlerin pratik uygulamalarını ve kuantum fiziğinin sırlarını detaylı bir şekilde ele alır. Kuantum bilgisayarlar, kriptografi ve kuantum iletişimi gibi geleceğin teknolojilerinde büyük potansiyel sunar."
-    },
-    {
-      "id": 3,
-      "title": "Yapay Zeka ve Etik: Makine Zekası ve Toplumsal Etkileşimleri",
-      "description": "Yapay zeka, bilgisayarların insan benzeri zekaya sahip olma yeteneğini tanımlar ve son yıllarda hızla gelişmiştir. Makine öğrenimi ve derin öğrenme, yapay zekanın temel yapı taşlarını oluşturur. Ancak, bu gelişmelerin etik boyutu önemli bir tartışma konusudur. Makine zekası, otomatik karar alma süreçlerini içerir ve bu kararların insanlar üzerindeki etkileri ciddi olabilir. Algoritmik adalet, yapay zeka sistemlerinin adil ve dengeli kararlar almasını sağlamak için geliştirilen bir yaklaşımdır. Bu makale, yapay zeka etiği üzerine odaklanır ve makine zekasının toplumsal etkileşimleri üzerindeki potansiyel etkilerini tartışır. Ayrıca, etik sorunların nasıl ele alınabileceği ve yapay zeka teknolojilerinin gelecekteki rolü hakkında çeşitli bakış açılarını sunar. Yapay zeka, modern toplumun çeşitli yönlerini etkileyen bir alan olup, bu etkilerin bilinçli bir şekilde yönetilmesi gerekmektedir."
-    },
-    {
-      "id": 4,
-      "title": "Üç Cisim Problemi: Klasik Mekaniğin Karmakarışık Sırrı",
-      "description": "Üç cisim problemleri, klasik mekaniğin en karmaşık ve ilginç konularından biridir. Bu problemler, üç veya daha fazla kütleli cismin birbirleri üzerindeki etkileşimlerini incelemeyi içerir. Basitçe söylemek gerekirse, üç cisim problemleri, üç cismin hareketini tanımlayan diferansiyel denklemlerin çözümünü gerektirir. Ancak, bu denklemler genellikle analitik olarak çözülemez ve sayısal yöntemler kullanılarak yaklaşık çözümler elde edilir. Üç cisim problemleri, astronomi, fizik ve mühendislik gibi çeşitli alanlarda önemli uygulamalara sahiptir. Örneğin, üç veya daha fazla gök cisminin hareketini modellemek, yıldızların yörüngelerini tahmin etmek veya uzay araçlarının rotalarını hesaplamak gibi."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Evrim Teorisi ve Genetik: İnsanın Kökeni Üzerine Derinlemesine Bir Bakış",
+    "description": "Evrim teorisi, biyoloji ve paleontoloji alanlarında kök salmış bir paradigmadır. Charles Darwin'in evrim teorisi, türlerin zaman içinde nasıl değiştiğini ve ortak bir atadan geldiklerini öne sürer. Farklı türlerin benzerlikleri ve farklılıkları, evrimin temel kanıtlarını oluşturur. Modern genetik araştırmalar, fosil kanıtları ve moleküler biyoloji verileriyle birleştirilerek insan evrimi hakkında derinlemesine bir anlayış sağlar. İnsan genomunun çözülmesi, türler arasındaki ilişkileri ve insanın diğer organizmalarla olan benzerliklerini daha iyi anlamamıza yardımcı olur. Genetik varyasyonlar ve mutasyonlar, doğal seçilimin ve evrimin itici güçlerini açıklar. Bu makale, evrim teorisinin temel prensiplerini, genetik araştırmalarının insanın kökeni üzerindeki etkilerini, fosil kanıtlarını ve moleküler evrimin önemini detaylı bir şekilde ele alır."
+  },
+  {
+    "id": 2,
+    "title": "Kuantum Fiziğinin Sırları: Bell Eşitsizlikleri ve Gizemli Kuantum Bağlantıları",
+    "description": "Kuantum fiziği, doğanın en temel düzeylerindeki olayları açıklamak için kullanılan bir teoridir ve genellikle sıradışı sonuçlar üretir. Bell Eşitsizlikleri, klasik fizikten farklı olarak kuantum mekaniğinin özelliklerini tanımlar. Bu eşitsizlikler, kuantum sistemler arasındaki ilişkilerin klasik fizikle uyumsuz olduğunu gösterir. Kuantum bağlantıları veya kuantum dolanıklığı, birbirinden uzak olan parçacıklar arasında anında bilgi iletişimi sağlayan gizemli bir fenomendir. Kuantum süperpozisyonu ve kuantum belirsizliği, kuantum fiziğinin temel prensiplerini oluşturur. Bu makale, Bell Eşitsizlikleri ve kuantum bağlantılarının temel prensiplerini, yanı sıra bu fenomenlerin pratik uygulamalarını ve kuantum fiziğinin sırlarını detaylı bir şekilde ele alır. Kuantum bilgisayarlar, kriptografi ve kuantum iletişimi gibi geleceğin teknolojilerinde büyük potansiyel sunar."
+  },
+  {
+    "id": 3,
+    "title": "Yapay Zeka ve Etik: Makine Zekası ve Toplumsal Etkileşimleri",
+    "description": "Yapay zeka, bilgisayarların insan benzeri zekaya sahip olma yeteneğini tanımlar ve son yıllarda hızla gelişmiştir. Makine öğrenimi ve derin öğrenme, yapay zekanın temel yapı taşlarını oluşturur. Ancak, bu gelişmelerin etik boyutu önemli bir tartışma konusudur. Makine zekası, otomatik karar alma süreçlerini içerir ve bu kararların insanlar üzerindeki etkileri ciddi olabilir. Algoritmik adalet, yapay zeka sistemlerinin adil ve dengeli kararlar almasını sağlamak için geliştirilen bir yaklaşımdır. Bu makale, yapay zeka etiği üzerine odaklanır ve makine zekasının toplumsal etkileşimleri üzerindeki potansiyel etkilerini tartışır. Ayrıca, etik sorunların nasıl ele alınabileceği ve yapay zeka teknolojilerinin gelecekteki rolü hakkında çeşitli bakış açılarını sunar. Yapay zeka, modern toplumun çeşitli yönlerini etkileyen bir alan olup, bu etkilerin bilinçli bir şekilde yönetilmesi gerekmektedir."
+  },
+  {
+    "id": 4,
+    "title": "Üç Cisim Problemi: Klasik Mekaniğin Karmakarışık Sırrı",
+    "description": "Üç cisim problemleri, klasik mekaniğin en karmaşık ve ilginç konularından biridir. Bu problemler, üç veya daha fazla kütleli cismin birbirleri üzerindeki etkileşimlerini incelemeyi içerir. Basitçe söylemek gerekirse, üç cisim problemleri, üç cismin hareketini tanımlayan diferansiyel denklemlerin çözümünü gerektirir. Ancak, bu denklemler genellikle analitik olarak çözülemez ve sayısal yöntemler kullanılarak yaklaşık çözümler elde edilir. Üç cisim problemleri, astronomi, fizik ve mühendislik gibi çeşitli alanlarda önemli uygulamalara sahiptir. Örneğin, üç veya daha fazla gök cisminin hareketini modellemek, yıldızların yörüngelerini tahmin etmek veya uzay araçlarının rotalarını hesaplamak gibi."
+  },
+
+  {
+    "id": 5,
+    "title": "Nöroplastisite ve Öğrenme: Beynin Esnekliği ve Potansiyeli",
+    "description": "Nöroplastisite, beyin hücrelerinin ve sinir devrelerinin yapılarını ve işlevlerini değiştirme yeteneğini tanımlar. Bu kavram, uzun süre boyunca beyin fonksiyonlarının sabit olduğu düşüncesini reddeder ve beyinlerimizin sürekli olarak yeni şeyler öğrenebileceğini gösterir. Nöroplastisite, özellikle öğrenme, bellek ve rehabilitasyon alanlarında büyük önem taşır. Beyin yaralanmaları sonrası rehabilitasyonda, nöroplastisite prensipleri kullanılarak kayıp fonksiyonların geri kazanılması hedeflenir. Aynı zamanda, yaşam boyu öğrenme sürecinde nöroplastisitenin rolü giderek daha fazla anlaşılmaktadır. Bu makale, nöroplastisitenin temel prensiplerini, beyin esnekliğinin nasıl geliştirilebileceğini ve öğrenme süreçlerindeki rolünü detaylı bir şekilde ele alır. Ayrıca, nöroplastisitenin psikoloji, eğitim ve tıp gibi farklı alanlardaki uygulamalarını inceler."
+  },
+  {
+    "id": 6,
+    "title": "Genomik Bilim ve İnsan Sağlığı: Biyolojik Mirasımızın Anlaşılması ve Tedavi Potansiyeli",
+    "description": "Genomik bilim, DNA'nın yapısını, işleyişini ve genetik materyalin insan sağlığı üzerindeki etkilerini inceleyen bir alandır. İnsan genomunun çözülmesiyle birlikte, genetik hastalıkların ve karmaşık hastalıkların kökenleri daha iyi anlaşılmıştır. Genomik bilim, bireysel tedavilerin ve kişiselleştirilmiş tıbbın temelini oluşturur. Bu makale, genomik bilimin temel kavramlarını, DNA analizinin tıbbi ve araştırma alanlarındaki uygulamalarını ve insan sağlığı üzerindeki potansiyel etkilerini detaylı bir şekilde ele alır."
+  },
+  {
+    "id": 7,
+    "title": "Nanoteknoloji ve Geleceğin Teknolojik Dönüşümü: Atomik Ölçekte Büyük İşler",
+    "description": "Nanoteknoloji, atomik ve moleküler düzeyde malzemelerin tasarımı, üretimi ve uygulanmasıyla ilgilenen bir alandır. Bu alandaki çalışmalar, tıp, malzeme bilimi, elektronik ve enerji gibi birçok alanda devrim yaratacak potansiyele sahiptir. Nanoteknoloji, nanomaddelerin özel özelliklerini kullanarak yenilikçi çözümler sunar. Bu makale, nanoteknolojinin temel prensiplerini, mevcut ve potansiyel uygulamalarını ve gelecekteki teknolojik dönüşümü detaylı bir şekilde ele alır."
+  },
+  {
+    "id": 8,
+    "title": "Fotonik ve Optik Bilim: Işığın Yolculuğu ve Teknolojideki Rolü",
+    "description": "Fotonik, ışığın ve diğer elektromanyetik radyasyonun temel özelliklerini ve uygulamalarını inceleyen bir alandır. Optik bilim, ışığın davranışını anlama ve kontrol etme amacıyla çalışır. Bu alanlar, iletişim, tıp, endüstriyel üretim, güneş enerjisi ve daha birçok alanda önemli rol oynar. Bu makale, fotonik ve optik bilimin temel kavramlarını, mevcut teknolojik gelişmeleri ve gelecekteki potansiyel uygulamalarını detaylı bir şekilde ele alır. "
+  }
+]
