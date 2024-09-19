@@ -4,7 +4,7 @@ import "./Bilim.css";
 const Bilim = () => {
   return (
     <div className="bilimContainer">
-      <h1>BİLİM YAZILARI</h1>
+      <h1 className="bilimbaslik">BİLİM YAZILARI</h1>
       <ul>
         {bilimData && bilimData.length > 0 ? (
           bilimData.map((article) => (
