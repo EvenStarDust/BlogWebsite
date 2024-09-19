@@ -1,18 +1,19 @@
 import "./Categories.css";
+import { Link } from "react-router-dom";
 const Categories = () => {
   return (
     <>
       <ul id="hexGrid">
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Bilim">
               <img
                 src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNjaWVuY2V8ZW58MHx8MHx8fDA%3D"
                 alt="bilim"
               />
               <h1>BİLİM</h1>
               <p>Bilimin Sırlarını Keşfet ve Yeni Ufuklara Yelken Aç!</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
@@ -172,9 +173,9 @@ const Categories = () => {
           </div>
         </li>
       </ul>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
     </>
   );
 };
