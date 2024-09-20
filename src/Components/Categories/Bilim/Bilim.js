@@ -9,7 +9,11 @@ const Bilim = () => {
         {bilimData && bilimData.length > 0 ? (
           bilimData.map((article) => (
             <li key={article.id}>
-              <h2>{article.title}</h2>
+              <div>
+                <h2>{article.title}</h2>
+                <img src="/photo/1.jpg" alt={article.title || "image"} />
+              </div>
+
               <p>{article.description}</p>
             </li>
           ))
