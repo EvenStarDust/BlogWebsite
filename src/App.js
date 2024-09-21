@@ -5,14 +5,17 @@ import Categories from "./Components/Categories/Categories";
 import Bilim from "./Components/Categories/Bilim/Bilim";
 import Spor from "./Components/Categories/Spor/Spor";
 import Teknoloji from "./Components/Categories/Teknoloji/Teknoloji";
+import Beslenme from "./Components/Categories/Beslenme/Beslenme";
 import { useLocation } from "react-router-dom";
+
 function App() {
   const location = useLocation();
   return (
     <div className="App">
       {location.pathname !== "/Bilim" &&
         location.pathname !== "/Teknoloji" &&
-        location.pathname !== "/Spor" && <Navbar title="Evenstar" />}
+        location.pathname !== "/Spor" &&
+        location.pathname !== "/Beslenme" && <Navbar title="Evenstar" />}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* GitHub Pages özel yolu */}
@@ -21,6 +24,7 @@ function App() {
         <Route path="/Bilim" element={<Bilim />} />
         <Route path="/Teknoloji" element={<Teknoloji />} />
         <Route path="/Spor" element={<Spor />} />
+        <Route path="/Beslenme" element={<Beslenme />} />
       </Routes>
     </div>
   );
