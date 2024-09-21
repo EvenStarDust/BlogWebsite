@@ -1,13 +1,13 @@
-import bilimData from "../../Data/bilimData.json";
-import "./Bilim.css";
-import img1 from "../../Data/photo/bilim/1.jpeg";
-import img2 from "../../Data/photo/bilim/2.jpg";
-import img3 from "../../Data/photo/bilim/3.jpg";
-import img4 from "../../Data/photo/bilim/4.jpg";
-import img5 from "../../Data/photo/bilim/5.jpg";
-import img6 from "../../Data/photo/bilim/6.jpg";
-import img7 from "../../Data/photo/bilim/7.jpg";
-import img8 from "../../Data/photo/bilim/8.jpg";
+import bilimData from "../../Data/teknolojiData.json";
+
+import img1 from "../../Data/photo/teknoloji/1.jpeg";
+import img2 from "../../Data/photo/teknoloji/2.jpg";
+import img3 from "../../Data/photo/teknoloji/3.jpg";
+import img4 from "../../Data/photo/teknoloji/4.jpg";
+import img5 from "../../Data/photo/teknoloji/5.jpg";
+import img6 from "../../Data/photo/teknoloji/6.jpg";
+import img7 from "../../Data/photo/teknoloji/7.jpg";
+import img8 from "../../Data/photo/teknoloji/8.jpg";
 const imageMap = {
   1: img1,
   2: img2,
@@ -23,7 +23,7 @@ const Bilim = () => {
   return (
     <div className="bilimContainer">
       <div class="col-md-12 text-center">
-        <h3 class="animate-charcter"> BİLİM YAZILARI</h3>
+        <h3 class="animate-charcter"> TEKNOLOJİ YAZILARI</h3>
       </div>
 
       <ul>
