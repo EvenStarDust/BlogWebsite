@@ -57,4 +57,5 @@ p {
   margin-right: 20px;
   border-radius: 30% 70% 58% 42% / 42% 27% 73% 58%;
   animation: randomShape 5s infinite ease-in-out;
+  border: 3px solid hsl(11, 100%, 31%);
 }
