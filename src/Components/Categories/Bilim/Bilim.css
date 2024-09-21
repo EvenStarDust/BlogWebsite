@@ -46,6 +46,7 @@ p {
 
 .bilimContainer {
   padding: 30px;
+  background-color: hsla(50, 63%, 66%, 0.896);
 }
 .textImageContainer {
   display: flex;
