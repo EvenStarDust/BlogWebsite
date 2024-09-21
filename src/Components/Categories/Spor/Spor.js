@@ -1,13 +1,13 @@
-import teknolojiData from "../../Data/teknolojiData.json";
+import sporData from "../../Data/sporData.json";
 
-import img1 from "../../Data/photo/teknoloji/1.jpeg";
-import img2 from "../../Data/photo/teknoloji/2.jpg";
-import img3 from "../../Data/photo/teknoloji/3.jpg";
-import img4 from "../../Data/photo/teknoloji/4.jpg";
-import img5 from "../../Data/photo/teknoloji/5.jpg";
-import img6 from "../../Data/photo/teknoloji/6.jpg";
-import img7 from "../../Data/photo/teknoloji/7.jpg";
-import img8 from "../../Data/photo/teknoloji/8.jpg";
+import img1 from "../../Data/photo/spor/1.jpeg";
+import img2 from "../../Data/photo/spor/2.jpg";
+import img3 from "../../Data/photo/spor/3.jpg";
+import img4 from "../../Data/photo/spor/4.jpg";
+import img5 from "../../Data/photo/spor/5.jpg";
+import img6 from "../../Data/photo/spor/6.jpg";
+import img7 from "../../Data/photo/spor/7.jpg";
+import img8 from "../../Data/photo/spor/8.jpg";
 const imageMap = {
   1: img1,
   2: img2,
@@ -19,16 +19,16 @@ const imageMap = {
   8: img8,
 };
 
-const Teknoloji = () => {
+const Spor = () => {
   return (
     <div className="bilimContainer">
       <div class="col-md-12 text-center">
-        <h3 class="animate-charcter"> TEKNOLOJİ YAZILARI</h3>
+        <h3 class="animate-charcter"> SPOR YAZILARI</h3>
       </div>
 
       <ul>
-        {teknolojiData && teknolojiData.length > 0 ? (
-          teknolojiData.map((article) => (
+        {sporData && sporData.length > 0 ? (
+          sporData.map((article) => (
             <li key={article.id}>
               <div className="textImageContainer">
                 <img
@@ -51,4 +51,4 @@ const Teknoloji = () => {
     </div>
   );
 };
-export default Teknoloji;
+export default Spor;

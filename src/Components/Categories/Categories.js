@@ -24,20 +24,26 @@ const Categories = () => {
                 alt="teknoloji"
               />
               <h1>TEKNOLOJİ</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
+              <p>
+                Teknolojinin sonsuz dünyasında yenilikleri keşfet, geleceğe
+                bugünden adım at!
+              </p>
             </Link>
           </div>
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Spor">
               <img
                 src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
               <h1>SPOR</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              <p>
+                Sporun gücüyle sınırlarını zorla, dayanıklılık ve azmin gücünü
+                keşfet!
+              </p>
+            </Link>
           </div>
         </li>
         <li class="hex">
