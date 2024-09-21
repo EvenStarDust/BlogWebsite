@@ -60,14 +60,17 @@ const Categories = () => {
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Sinema">
               <img
                 src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2luZW1hfGVufDB8fDB8fHww"
                 alt=""
               />
               <h1>SİNEMA</h1>
-              <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+              <p>
+                Sinemanın büyülü dünyasında farklı türlerde unutulmaz hikayeler
+                keşfedin!
+              </p>
+            </Link>
           </div>
         </li>
         <li class="hex">
