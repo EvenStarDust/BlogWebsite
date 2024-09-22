@@ -87,14 +87,14 @@ const Categories = () => {
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Kitaplar">
               <img
                 src="https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Qk9PS1N8ZW58MHx8MHx8fDA%3D"
                 alt=""
               />
               <h1>KİTAPLAR</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
