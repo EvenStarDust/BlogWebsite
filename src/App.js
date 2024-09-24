@@ -10,6 +10,7 @@ import Sinema from "./Components/Categories/Sinema/Sinema";
 import Muzik from "./Components/Categories/Muzik/Muzik";
 import Kitaplar from "./Components/Categories/Kitaplar/Kitaplar";
 import Uzay from "./Components/Categories/Uzay/Uzay";
+import GezilecekYerler from "./Components/Categories/Gezilecek_yerler/GezilecekYerler";
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         location.pathname !== "/Sinema" &&
         location.pathname !== "/Muzik" &&
         location.pathname !== "/Kitaplar" &&
-        location.pathname !== "/Uzay" && <Navbar title="Evenstar" />}
+        location.pathname !== "/Uzay" &&
+        location.pathname !== "/GezilecekYerler" && <Navbar title="Evenstar" />}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* GitHub Pages özel yolu */}
@@ -37,6 +39,7 @@ function App() {
         <Route path="/Muzik" element={<Muzik />} />
         <Route path="/Kitaplar" element={<Kitaplar />} />
         <Route path="/Uzay" element={<Uzay />} />
+        <Route path="/GezilecekYerler" element={<GezilecekYerler />} />
       </Routes>
     </div>
   );

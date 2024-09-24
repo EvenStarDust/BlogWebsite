@@ -1,13 +1,13 @@
 import uzayData from "../../Data/uzayData.json";
 
-/* import img1 from "../../Data/photo/muzik/1.jpeg";
-import img2 from "../../Data/photo/muzik/2.jpg";
-import img3 from "../../Data/photo/muzik/3.jpg";
-import img4 from "../../Data/photo/muzik/4.jpg";
-import img5 from "../../Data/photo/muzik/5.jpg";
-import img6 from "../../Data/photo/muzik/6.jpg";
-import img7 from "../../Data/photo/muzik/7.jpg";
-import img8 from "../../Data/photo/muzik/8.jpg";
+import img1 from "../../Data/photo/uzay/1.jpeg";
+import img2 from "../../Data/photo/uzay/2.jpg";
+import img3 from "../../Data/photo/uzay/3.jpg";
+import img4 from "../../Data/photo/uzay/4.jpg";
+import img5 from "../../Data/photo/uzay/5.jpg";
+import img6 from "../../Data/photo/uzay/6.jpg";
+import img7 from "../../Data/photo/uzay/7.jpg";
+import img8 from "../../Data/photo/uzay/8.jpg";
 const imageMap = {
   1: img1,
   2: img2,
@@ -17,7 +17,7 @@ const imageMap = {
   6: img6,
   7: img7,
   8: img8,
-}; */
+};
 
 const Uzay = () => {
   return (
@@ -31,11 +31,11 @@ const Uzay = () => {
           uzayData.map((article) => (
             <li key={article.id}>
               <div className="textImageContainer">
-                {/*   <img
+                <img
                   className="imgBilim-container"
                   src={imageMap[article.id]}
                   alt={article.title || "image"}
-                /> */}
+                />
 
                 <div>
                   <h2>{article.title}</h2>

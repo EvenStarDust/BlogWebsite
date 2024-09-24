@@ -99,26 +99,26 @@ const Categories = () => {
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Uzay">
               <img
                 src="https://images.unsplash.com/photo-1501862700950-18382cd41497?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFNQQUNFfGVufDB8fDB8fHww"
                 alt=""
               />
               <h1>UZAY</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/GezilecekYerler">
               <img
                 src="https://plus.unsplash.com/premium_photo-1667530621211-7924dc31a4a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXRhbHl8ZW58MHx8MHx8fDA%3D"
                 alt=""
               />
               <h1>GEZİLECEK YERLER</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
