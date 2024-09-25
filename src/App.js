@@ -15,6 +15,7 @@ import Sanat from "./Components/Categories/Sanat/Sanat";
 import BilimInsanlari from "./Components/Categories/Bilim_insanlar/BilimInsanlari";
 import Hayvanlar from "./Components/Categories/Hayvanlar/Hayvanlar";
 import AnimeManga from "./Components/Categories/AnimeManga/AnimeManga";
+import Game from "./Components/Categories/Game/Game";
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
         location.pathname !== "/Sanat" &&
         location.pathname !== "/BilimInsanlari" &&
         location.pathname !== "/Hayvanlar" &&
-        location.pathname !== "/AnimeManga" && <Navbar title="Evenstar" />}
+        location.pathname !== "/AnimeManga" &&
+        location.pathname !== "/Game" && <Navbar title="Evenstar" />}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* GitHub Pages özel yolu */}
@@ -52,6 +54,7 @@ function App() {
         <Route path="/BilimInsanlari" element={<BilimInsanlari />} />
         <Route path="/Hayvanlar" element={<Hayvanlar />} />
         <Route path="/AnimeManga" element={<AnimeManga />} />
+        <Route path="/Game" element={<Game />} />
       </Routes>
     </div>
   );
