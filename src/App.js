@@ -12,6 +12,9 @@ import Kitaplar from "./Components/Categories/Kitaplar/Kitaplar";
 import Uzay from "./Components/Categories/Uzay/Uzay";
 import GezilecekYerler from "./Components/Categories/Gezilecek_yerler/GezilecekYerler";
 import Sanat from "./Components/Categories/Sanat/Sanat";
+import BilimInsanlari from "./Components/Categories/Bilim_insanlar/BilimInsanlari";
+import Hayvanlar from "./Components/Categories/Hayvanlar/Hayvanlar";
+import AnimeManga from "./Components/Categories/AnimeManga/AnimeManga";
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -27,7 +30,10 @@ function App() {
         location.pathname !== "/Kitaplar" &&
         location.pathname !== "/Uzay" &&
         location.pathname !== "/GezilecekYerler" &&
-        location.pathname !== "/Sanat" && <Navbar title="Evenstar" />}
+        location.pathname !== "/Sanat" &&
+        location.pathname !== "/BilimInsanlari" &&
+        location.pathname !== "/Hayvanlar" &&
+        location.pathname !== "/AnimeManga" && <Navbar title="Evenstar" />}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* GitHub Pages özel yolu */}
@@ -43,6 +49,9 @@ function App() {
         <Route path="/Uzay" element={<Uzay />} />
         <Route path="/GezilecekYerler" element={<GezilecekYerler />} />
         <Route path="/Sanat" element={<Sanat />} />
+        <Route path="/BilimInsanlari" element={<BilimInsanlari />} />
+        <Route path="/Hayvanlar" element={<Hayvanlar />} />
+        <Route path="/AnimeManga" element={<AnimeManga />} />
       </Routes>
     </div>
   );

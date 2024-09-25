@@ -135,38 +135,38 @@ const Categories = () => {
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/BilimInsanlari">
               <img
                 src="https://images.unsplash.com/photo-1641893588018-b958a5845cab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFtb3VzJTIwc2NpZW50aXN0c3xlbnwwfHwwfHx8MA%3D%3D"
                 alt=""
               />
               <h1>BİLİM İNSANLARI</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/Hayvanlar">
               <img
                 src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFuaW1hbHN8ZW58MHx8MHx8fDA%3D"
                 alt=""
               />
               <h1>HAYVANLAR</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
           <div class="hexIn">
-            <a class="hexLink" href="#">
+            <Link class="hexLink" href="#" to="/AnimeManga">
               <img
                 src="https://images.unsplash.com/photo-1601850494422-3cf14624b0b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5pbWUlMjBhbmQlMjBtYW5nYXxlbnwwfHwwfHx8MA%3D%3D"
                 alt=""
               />
               <h1>ANİME VE MANGALAR</h1>
               <p>Some sample text about the article this hexagon leads to</p>
-            </a>
+            </Link>
           </div>
         </li>
         <li class="hex">
