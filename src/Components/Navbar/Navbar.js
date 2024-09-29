@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-
 export default function Navbar({ title }) {
   const [scrolling, setScrolling] = useState(false);
   const [isNavActive, setNavActive] = useState(false);
@@ -74,7 +73,7 @@ export default function Navbar({ title }) {
           </div>
         </nav>
       </section>
-     <></>
+      <></>
     </>
   );
 }

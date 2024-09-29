@@ -8,10 +8,10 @@ const Footer = () => {
             <div className="footer__label">
               <h2 className="footer__title_main">Evenstar</h2>
               <span className="footer__title">
-                📝 Hoş Geldiniz! <br/> Bu bizim blog dünyamız! Burada hayatın farklı
-                yönlerini keşfediyor ve deneyimlerimizi paylaşıyoruz. Bizi takip
-                etmeyi ve etkileşimde bulunmayı unutmayın! Yolculuğumuza hazır
-                mısınız? 🚀
+                📝 Hoş Geldiniz! <br /> Bu bizim blog dünyamız! Burada hayatın
+                farklı yönlerini keşfediyor ve deneyimlerimizi paylaşıyoruz.
+                Bizi takip etmeyi ve etkileşimde bulunmayı unutmayın!
+                Yolculuğumuza hazır mısınız? 🚀
               </span>
             </div>
 
@@ -42,23 +42,6 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/bilgekosee/"
-                target="_blank"
-                rel="noreferrer"
-                className="footer__social"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a
-                href="https://github.com/oguzz0804"
-                target="_blank"
-                rel="noreferrer"
-                className="footer__social"
-              >
-                <i className="fa-brands fa-github"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/oğuzhan-ötleş"
                 target="_blank"
                 rel="noreferrer"
                 className="footer__social"
